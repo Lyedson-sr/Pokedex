@@ -32,6 +32,8 @@ main{
     /* left: 0; -> fica vaznado da tag main - pros elementos repeitarem as delimitações da tag main vai na main e coloca o position relative  */
     /*Colocar a imagem no centro - atraves do lefth e bottom*/
     bottom: 55%;
-    left: 170px;
+    left: 50%;
+    transform: translate(-63%, 20%);
+    height: 18%;
 }
 /* todos os elementos que iremos por encima da pokedex vai ter a propriedade position; absolute*/ 
