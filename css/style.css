@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+}
+
+main{
+    background-color: red;
+    /* A largura da tag main esta sendo toda a tela - não quero - quero que a largura da tag main seja só a largura da imagem */
+    display: inline-block ;
+    margin-top: 2%;
+}
