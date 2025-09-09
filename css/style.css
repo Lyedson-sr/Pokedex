@@ -17,4 +17,21 @@ main{
     /* A largura da tag main esta sendo toda a tela - não quero - eu quero que a largura da tag main seja só a largura da imagem */
     display: inline-block ;
     margin-top: 2%;
+    padding: 15px; /*quando tiver em tela pequena não ficar colado*/ 
+    position: relative; /*O position relative*/
 }
+
+.pokedex{ /*Imagem se comportar melhor - imagem ocupa 100%% do espaço definido*/
+    width: 100px;
+    /* pra previnir que o layout fique mudando */
+    max-width: 425px;
+}
+
+.pokemon_image{
+    position: absolute;
+    /* left: 0; -> fica vaznado da tag main - pros elementos repeitarem as delimitações da tag main vai na main e coloca o position relative  */
+    /*Colocar a imagem no centro - atraves do lefth e bottom*/
+    bottom: 55%;
+    left: 170px;
+}
+/* todos os elementos que iremos por encima da pokedex vai ter a propriedade position; absolute*/ 
