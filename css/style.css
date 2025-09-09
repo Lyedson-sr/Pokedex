@@ -7,9 +7,14 @@
     font-family: 'Oxanium', cursive;
 }
 
+body{
+    text-align: center;
+    background: linear-gradient(to bottom, #6ab7f5,#fff); /* Direção do gradiente de cima pra baixo - direção pra baixo (to bottom)*/
+    min-height: 100vh ; /* 100 por cento da view port - body vai ter width de  100 porc ento da tela*/
+}
+
 main{
-    background-color: red;
-    /* A largura da tag main esta sendo toda a tela - não quero - quero que a largura da tag main seja só a largura da imagem */
+    /* A largura da tag main esta sendo toda a tela - não quero - eu quero que a largura da tag main seja só a largura da imagem */
     display: inline-block ;
     margin-top: 2%;
 }
